@@ -1,0 +1,48 @@
+[15:36:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[15:36:58] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:36:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:58] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:36:58] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:36:58] [main/INFO]: Reloading ResourceManager: Default
+[15:36:58] [Worker-Main-13/INFO]: Loaded 7 recipes
+[15:36:58] [Worker-Main-13/INFO]: Loaded 927 advancements
+[15:37:00] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[15:37:00] [Server thread/INFO]: Loading properties
+[15:37:00] [Server thread/INFO]: Default game type: SURVIVAL
+[15:37:00] [Server thread/INFO]: Generating keypair
+[15:37:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at zg$1.run(SourceFile:89) [server.jar:?]
+[15:37:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:37:00] [Server thread/INFO]: Using default channel type
+[15:37:02] [Server thread/WARN]: Failed to load white-list: 
+com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "abadok"
+	at afa.m(SourceFile:393) ~[server.jar:?]
+	at acw.f(SourceFile:122) ~[server.jar:?]
+	at zf.B(SourceFile:119) [server.jar:?]
+	at zf.<init>(SourceFile:27) [server.jar:?]
+	at zg.d(SourceFile:164) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:642) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:254) [server.jar:?]
+	at net.minecraft.server.MinecraftServer$$Lambda$3296/85178160.run(Unknown Source) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[15:37:02] [Server thread/INFO]: Preparing level "world"
+[15:37:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:37:03] [Server thread/INFO]: Preparing spawn area: 0%
+[15:37:03] [Server thread/INFO]: Preparing spawn area: 0%
+[15:37:03] [Server thread/INFO]: Preparing spawn area: 0%
+[15:37:03] [Server thread/INFO]: Time elapsed: 1506 ms
+[15:37:03] [Server thread/INFO]: Done (1.616s)! For help, type "help"
+[15:37:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@7ae39a69[id=<null>,name=Neko,properties={},legacy=false] (/192.168.1.31:49586) lost connection: Disconnected
